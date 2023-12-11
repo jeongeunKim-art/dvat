@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet" />
+    <title>Contact</title>
+    <style>
+        /* 지도를 표시할 div 요소의 높이를 설정해주세요. */
+        #map {
+            height: 400px;  
+            width: 50%;  
+        }
+    </style>
+    <script>
+        function initMap() {
+          var seoul = {lat:  37.5618404, lng: 126.9361569};
+          var map = new google.maps.Map(
+              document.getElementById('map'), {zoom: 17, center: seoul});
+          var marker = new google.maps.Marker({position: seoul, map: map});
+        }
+    </script>
+</head>
+<body id = "contact">
+<section>
+     <!-- Navigation-->
+     <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+        <div class="container px-4 px-lg-5">
+            <a class="navbar-brand" href="http://127.0.0.1:5500/startbootstrap-creative-master/dist/index.html">DVAT</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/startbootstrap-creative-master/dist/index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/startbootstrap-creative-master/dist/tech.html">Tech</a></li>
+                    <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/startbootstrap-creative-master/dist/member.html">Member</a></li>
+                    <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/startbootstrap-creative-master/dist/contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+      <!-- Masthead-->
+      <div class="col-lg-8 text-center">
+        <h2 class="text-white contact-title">Contact</h2>
+      </div>
+    <div id="map"></div>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDD6W5pZd5sgd9Qd6oJsGi1jRlM6bNX_pE&callback=initMap">
+    </script>
+    <div class="contact-info">
+      <p class>주소 ㅣ 서울특별시 서대문구 연세로 50 연세대학교 제4공학관 D808 데이터공학 연구실</p>
+      <p class>연락처 ㅣ 02-21223-7757</p>
+      <p class>이메일 ㅣ </p>
+    </div>    
+</section>    
+
+        <section class="page-section bg-primary1" id="about">
+          <div class="container-custom px-4 px-lg-5">
+              <div class="row gx-4 gx-lg-5 justify-content-center">
+                
+                  </div>
+              </div>
+          </div>
+      </section>   
+  <!-- Footer-->
+        <div class="footer-container">
+          <footer class="py-5">
+              <div class="footer-color">
+              <div class="container px-4 px-lg-5">
+                <div class="row">
+                  <div class="col-sm-6 col-md-3">
+                    <h5>주소</h5>
+                    <p class="small text-muted">서울특별시 서대문구 연세로 50<br>연세대학교 제4공학관 D808 데이터공학 연구실</p>
+                  </div>
+                  <div class="col-sm-6 col-md-3">
+                    <h5>연락처</h5>
+                    <p class="small text-muted">02-21223-7757</p>
+                  </div>
+                  <div class="col-sm-6 col-md-3">
+                    <h5>사업자 등록번호</h5>
+                    <p class="small text-muted">725-66-00731</p>
+                  </div> 
+                  <div class="col-sm-6 col-md-3">
+                    <h5>연구실 홈페이지</h5>
+                    <p class="small text-muted"><a href="http://delab.yonsei.ac.kr/">http://delab.yonsei.ac.kr/</a></p>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </footer>
+</body>
+</html>
