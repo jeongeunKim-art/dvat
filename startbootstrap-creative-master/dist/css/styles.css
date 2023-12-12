@@ -11214,7 +11214,6 @@ header.masthead h1, header.masthead .h1 {
   margin-right: 20px; /* 그림과 텍스트 사이에 공간을 둠 */
   width: 600px; /* 그림의 너비를 200px로 설정 */
   height: auto; /* 그림의 높이를 자동으로 설정 (원본 비율 유지) */
-
 }
 
 
@@ -11222,7 +11221,13 @@ header.masthead h1, header.masthead .h1 {
 
 
 .contact-title {
-  margin: 180px 15px 10px 0px
+  margin: 150px 30px 0px 450px
+
+}
+@media screen and (max-width: 768px) { /* 화면의 너비가 768px 이하일 때 적용 */
+  .contact-title {
+    margin: 50px 15px 0px 15px; /* 화면 크기에 맞게 마진 값을 조정 */
+  }
 }
 body#contact {
   background-color: #000;
