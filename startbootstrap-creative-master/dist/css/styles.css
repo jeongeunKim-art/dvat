@@ -108,15 +108,6 @@ body {
 .flex-container {
   display: flex;
   justify-content: space-between; 
-  padding: 10px;
-  border: 1px solid rgb(0, 0, 0);
-}
-
-.flex-item {
-  padding: 130px;
-  border: 1px solid white;
-  width: 500;
-  height: 300;
 }
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
 
@@ -8338,7 +8329,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: #2E2C2C !important; /* 배경색을 #2E2C2C로 변경 */
+  background-color: #2E2C2C; /* 배경색을 #2E2C2C로 변경 */
 }
 .bg-primary1 {
   --bs-bg-opacity: 1;
@@ -11209,6 +11200,7 @@ header.masthead h1, header.masthead .h1 {
   opacity: 1;
 }
 
+<<<<<<< HEAD
 .service-image {
   float: left; /* 그림을 왼쪽으로 정렬 */
   margin-right: 20px; /* 그림과 텍스트 사이에 공간을 둠 */
@@ -11216,6 +11208,8 @@ header.masthead h1, header.masthead .h1 {
   height: auto; /* 그림의 높이를 자동으로 설정 (원본 비율 유지) */
 }
 
+=======
+>>>>>>> 7d7d6247d61b680894477654f9426aafb3d749f5
 
 /*contact css*/
 
