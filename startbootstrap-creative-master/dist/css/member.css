@@ -1,0 +1,45 @@
+.member__img {
+    margin-top: 72px;
+    position: relative;
+}
+
+.member__img img{
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
+
+.member__img .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3vw;
+}
+
+.member__content .container {
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+.member__content h4 {
+    text-align: center;
+}
+
+.jb-division-line {
+    border-top: 3px solid #444444;
+    margin: 30px auto;    
+  }
+
+.member__content img {
+    width: 20vw;
+    height: 20vw;
+    object-fit: cover;
+    border-radius: 100%;
+    border: 1px solid black
+}
+
+.member__content .flex-container {
+    justify-self: space-around;
+}
