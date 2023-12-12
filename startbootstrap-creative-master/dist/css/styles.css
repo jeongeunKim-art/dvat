@@ -9345,7 +9345,7 @@ fieldset:disabled .btn {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: #2E2C2C;
+  background-color: black;
   /* 배경색을 #2E2C2C로 변경 */
 }
 
